@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Lecteur Musique pro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="content">
+    <div class="nav-top">
+        <i class="fa fa-angle-down">
+        </i> <span>Playlist</span>
+        <i class="fa fa-folder"></i>
+    </div>
+    <div class="image">
+        <img src="" alt="">
+
+    </div>
+    <div class="song-details">
+        <p class="name"></p>
+        <p class="artist"></p>
+    </div>
+
+    <div class="progress-area">
+        <div class="progress-bar">
+         <audio id="main-audio" src=""></audio>
+        </div>
+        <div class="temps">
+            <span>0:00</span>
+            <span>0:00</span>
+        </div>
+    </div>
+
+    <div class="control">
+       <i id="repeat-plist" class="fa fa-exchange" title="Repeter la musique"></i>
+       <i id="prev" class="fa fa-backward"></i>
+
+       <div class="play-pause">
+        <i class="fa fa-play-circle pause"></i>
+       </div>
+
+       <i id="next" class="fa fa-forward"></i>
+       <i id="more-music" class="fa fa-list"></i>
+    </div>
+       <div class="music-list">
+        <div class="header">
+          <div class="row">
+            <i class= "fa fa-list"></i>
+            <span>Mon Playlist</span>
+          </div>
+          <i id="close" class="fa fa-close"></i>
+        </div>
+        <ul>
+          <!-- affiches la liste ici -->
+        </ul>
+    </div>
+</div>
+<script src="./js/table.js"></script>
+<script src="./js/execute.js"></script>
+</body>
+</html>
